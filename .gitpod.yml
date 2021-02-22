@@ -1,4 +1,4 @@
-image: patrickmckernin/very-best-debug2020
+image: jelaniwoods/appdev2021-very-vest-debug
 
 tasks:
   - init: bin/setup
