@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev2021-very-best-debug
+image: jelaniwoods/appdev2021-very-best-debug@sha256:9ed89057a51e28e1c912401e4026b4e468bf457b58f0e332458c29e4cdaa17f6
 
 tasks:
   - init: bin/setup
