@@ -40,7 +40,7 @@ class VenuesController < ApplicationController
   def destroy
     the_id = params.fetch("venue_id")
     matching_venues = Venue.where({ :id => the_id })
-    venue = matching_venues
+    venue = matching_venues[0]
     venue.destroy
 
     redirect_to("/venues")
